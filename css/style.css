@@ -150,6 +150,7 @@ body {
   display: flex; align-items: center; justify-content: center;
   border-radius: 6px;
 }
+.board-overlay[hidden] { display: none; }
 .overlay-card {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -221,6 +222,7 @@ body {
   display: flex; align-items: center; justify-content: center;
   z-index: 100;
 }
+.modal[hidden] { display: none; }
 .modal-card {
   background: var(--panel);
   border: 1px solid var(--border);
